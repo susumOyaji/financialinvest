@@ -1,10 +1,10 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
-import 'package:Invest/appstate_container.dart';
-import 'package:Invest/app_icons.dart';
-import 'package:Invest/styles.dart';
-import 'package:Invest/model/setting_item.dart';
-import 'package:Invest/ui/util/ui_util.dart';
+import 'package:financialinvest/appstate_container.dart';
+import 'package:financialinvest/app_icons.dart';
+import 'package:financialinvest/styles.dart';
+import 'package:financialinvest/model/setting_item.dart';
+import 'package:financialinvest/ui/util/ui_util.dart';
 
 class AppSettings {
   //Settings item with a dropdown option

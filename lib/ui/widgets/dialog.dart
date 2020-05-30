@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flare_flutter/flare_actor.dart';
-import 'package:Invest/localization.dart';
-import 'package:Invest/styles.dart';
-import 'package:Invest/themes.dart';
-import 'package:Invest/appstate_container.dart';
-import 'package:Invest/ui/widgets/app_simpledialog.dart';
-import 'package:Invest/util/caseconverter.dart';
+import 'package:financialinvest/localization.dart';
+import 'package:financialinvest/styles.dart';
+import 'package:financialinvest/themes.dart';
+import 'package:financialinvest/appstate_container.dart';
+import 'package:financialinvest/ui/widgets/app_simpledialog.dart';
+import 'package:financialinvest/util/caseconverter.dart';
 
 class AppDialogs {
   static void showConfirmDialog(

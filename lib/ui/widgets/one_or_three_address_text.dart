@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:Invest/styles.dart';
+import 'package:financialinvest/styles.dart';
 
 enum AddressTextType { PRIMARY60, PRIMARY, SUCCESS }
 

@@ -3,18 +3,18 @@ import 'dart:io';
 import 'dart:typed_data';
 import 'dart:ui' as ui;
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:Invest/themes.dart';
+import 'package:financialinvest/themes.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:share/share.dart';
-import 'package:Invest/localization.dart';
+import 'package:financialinvest/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/rendering.dart';
-import 'package:Invest/dimens.dart';
-import 'package:Invest/ui/widgets/buttons.dart';
-import 'package:Invest/ui/util/ui_util.dart';
-import 'package:Invest/ui/receive/share_card.dart';
-import 'package:Invest/appstate_container.dart';
+import 'package:financialinvest/dimens.dart';
+import 'package:financialinvest/ui/widgets/buttons.dart';
+import 'package:financialinvest/ui/util/ui_util.dart';
+import 'package:financialinvest/ui/receive/share_card.dart';
+import 'package:financialinvest/appstate_container.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class ReceiveSheet extends StatefulWidget {

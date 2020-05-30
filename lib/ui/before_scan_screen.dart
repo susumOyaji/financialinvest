@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:Invest/app_icons.dart';
-import 'package:Invest/util/user_data_util.dart';
+import 'package:financialinvest/app_icons.dart';
+import 'package:financialinvest/util/user_data_util.dart';
 
 class BeforeScanScreen extends StatefulWidget {
   @override

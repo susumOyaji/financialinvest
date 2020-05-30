@@ -4,9 +4,9 @@ import 'package:flutter/foundation.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:Invest/model/db/account.dart';
-import 'package:Invest/model/db/contact.dart';
-import 'package:Invest/util/nanoutil.dart';
+import 'package:financialinvest/model/db/account.dart';
+import 'package:financialinvest/model/db/contact.dart';
+import 'package:financialinvest/util/nanoutil.dart';
 
 class DBHelper {
   static const int DB_VERSION = 3;

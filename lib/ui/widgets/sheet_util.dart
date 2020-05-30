@@ -1,8 +1,8 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:Invest/appstate_container.dart';
-import 'package:Invest/ui/util/routes.dart';
+import 'package:financialinvest/appstate_container.dart';
+import 'package:financialinvest/ui/util/routes.dart';
 
 class Sheets {
   //App Ninty Height Sheet

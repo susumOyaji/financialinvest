@@ -1,9 +1,9 @@
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-import 'package:Invest/service_locator.dart';
-import 'package:Invest/util/sharedprefsutil.dart';
-import 'package:Invest/util/ninja/ninja_node.dart';
+import 'package:financialinvest/service_locator.dart';
+import 'package:financialinvest/util/sharedprefsutil.dart';
+import 'package:financialinvest/util/ninja/ninja_node.dart';
 
 class NinjaAPI {
   static const String API_URL = 'https://mynano.ninja/api';

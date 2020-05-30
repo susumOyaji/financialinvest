@@ -2,17 +2,17 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:keyboard_avoider/keyboard_avoider.dart';
 import 'package:flutter_nano_ffi/flutter_nano_ffi.dart';
-import 'package:Invest/appstate_container.dart';
-import 'package:Invest/dimens.dart';
-import 'package:Invest/localization.dart';
-import 'package:Invest/model/vault.dart';
-import 'package:Invest/service_locator.dart';
-import 'package:Invest/styles.dart';
-import 'package:Invest/ui/util/ui_util.dart';
-import 'package:Invest/ui/widgets/app_text_field.dart';
-import 'package:Invest/ui/widgets/buttons.dart';
-import 'package:Invest/ui/widgets/tap_outside_unfocus.dart';
-import 'package:Invest/util/caseconverter.dart';
+import 'package:financialinvest/appstate_container.dart';
+import 'package:financialinvest/dimens.dart';
+import 'package:financialinvest/localization.dart';
+import 'package:financialinvest/model/vault.dart';
+import 'package:financialinvest/service_locator.dart';
+import 'package:financialinvest/styles.dart';
+import 'package:financialinvest/ui/util/ui_util.dart';
+import 'package:financialinvest/ui/widgets/app_text_field.dart';
+import 'package:financialinvest/ui/widgets/buttons.dart';
+import 'package:financialinvest/ui/widgets/tap_outside_unfocus.dart';
+import 'package:financialinvest/util/caseconverter.dart';
 
 class SetPasswordSheet extends StatefulWidget {
   _SetPasswordSheetState createState() => _SetPasswordSheetState();

@@ -5,11 +5,11 @@ import 'package:http/http.dart' as http;
 import 'package:oktoast/oktoast.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
-import 'package:Invest/appstate_container.dart';
-import 'package:Invest/styles.dart';
-import 'package:Invest/localization.dart';
-import 'package:Invest/bus/events.dart';
-import 'package:Invest/ui/util/exceptions.dart';
+import 'package:financialinvest/appstate_container.dart';
+import 'package:financialinvest/styles.dart';
+import 'package:financialinvest/localization.dart';
+import 'package:financialinvest/bus/events.dart';
+import 'package:financialinvest/ui/util/exceptions.dart';
 
 enum ThreeLineAddressTextType { PRIMARY60, PRIMARY, SUCCESS, SUCCESS_FULL }
 enum OneLineAddressTextType { PRIMARY60, PRIMARY, SUCCESS }

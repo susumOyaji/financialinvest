@@ -3,16 +3,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:keyboard_avoider/keyboard_avoider.dart';
 import 'package:flutter_nano_ffi/flutter_nano_ffi.dart';
-import 'package:Invest/appstate_container.dart';
-import 'package:Invest/localization.dart';
-import 'package:Invest/dimens.dart';
-import 'package:Invest/app_icons.dart';
-import 'package:Invest/ui/widgets/app_text_field.dart';
-import 'package:Invest/ui/widgets/buttons.dart';
-import 'package:Invest/styles.dart';
-import 'package:Invest/ui/widgets/tap_outside_unfocus.dart';
-import 'package:Invest/util/caseconverter.dart';
-import 'package:Invest/util/user_data_util.dart';
+import 'package:financialinvest/appstate_container.dart';
+import 'package:financialinvest/localization.dart';
+import 'package:financialinvest/dimens.dart';
+import 'package:financialinvest/app_icons.dart';
+import 'package:financialinvest/ui/widgets/app_text_field.dart';
+import 'package:financialinvest/ui/widgets/buttons.dart';
+import 'package:financialinvest/styles.dart';
+import 'package:financialinvest/ui/widgets/tap_outside_unfocus.dart';
+import 'package:financialinvest/util/caseconverter.dart';
+import 'package:financialinvest/util/user_data_util.dart';
 
 class TransferManualEntrySheet extends StatefulWidget {
   final Function validSeedCallback;

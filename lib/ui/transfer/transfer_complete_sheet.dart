@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:Invest/appstate_container.dart';
-import 'package:Invest/app_icons.dart';
-import 'package:Invest/localization.dart';
-import 'package:Invest/dimens.dart';
-import 'package:Invest/ui/widgets/sheets.dart';
-import 'package:Invest/ui/widgets/buttons.dart';
-import 'package:Invest/styles.dart';
+import 'package:financialinvest/appstate_container.dart';
+import 'package:financialinvest/app_icons.dart';
+import 'package:financialinvest/localization.dart';
+import 'package:financialinvest/dimens.dart';
+import 'package:financialinvest/ui/widgets/sheets.dart';
+import 'package:financialinvest/ui/widgets/buttons.dart';
+import 'package:financialinvest/styles.dart';
 
 class AppTransferCompleteSheet {
   String transferAmount;

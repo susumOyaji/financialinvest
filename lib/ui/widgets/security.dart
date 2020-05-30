@@ -3,13 +3,13 @@ import 'dart:math';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 
-import 'package:Invest/appstate_container.dart';
-import 'package:Invest/localization.dart';
-import 'package:Invest/app_icons.dart';
-import 'package:Invest/styles.dart';
-import 'package:Invest/service_locator.dart';
-import 'package:Invest/util/hapticutil.dart';
-import 'package:Invest/util/sharedprefsutil.dart';
+import 'package:financialinvest/appstate_container.dart';
+import 'package:financialinvest/localization.dart';
+import 'package:financialinvest/app_icons.dart';
+import 'package:financialinvest/styles.dart';
+import 'package:financialinvest/service_locator.dart';
+import 'package:financialinvest/util/hapticutil.dart';
+import 'package:financialinvest/util/sharedprefsutil.dart';
 
 enum PinOverlayType { NEW_PIN, ENTER_PIN }
 

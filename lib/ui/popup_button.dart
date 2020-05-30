@@ -2,22 +2,22 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:manta_dart/manta_wallet.dart';
 import 'package:manta_dart/messages.dart';
-import 'package:Invest/app_icons.dart';
-import 'package:Invest/appstate_container.dart';
-import 'package:Invest/localization.dart';
-import 'package:Invest/model/address.dart';
-import 'package:Invest/model/db/appdb.dart';
-import 'package:Invest/model/db/contact.dart';
-import 'package:Invest/service_locator.dart';
-import 'package:Invest/styles.dart';
-import 'package:Invest/ui/send/send_confirm_sheet.dart';
-import 'package:Invest/ui/send/send_sheet.dart';
-import 'package:Invest/ui/util/ui_util.dart';
-import 'package:Invest/ui/widgets/dialog.dart';
-import 'package:Invest/ui/widgets/sheet_util.dart';
-import 'package:Invest/util/hapticutil.dart';
-import 'package:Invest/util/manta.dart';
-import 'package:Invest/util/user_data_util.dart';
+import 'package:financialinvest/app_icons.dart';
+import 'package:financialinvest/appstate_container.dart';
+import 'package:financialinvest/localization.dart';
+import 'package:financialinvest/model/address.dart';
+import 'package:financialinvest/model/db/appdb.dart';
+import 'package:financialinvest/model/db/contact.dart';
+import 'package:financialinvest/service_locator.dart';
+import 'package:financialinvest/styles.dart';
+import 'package:financialinvest/ui/send/send_confirm_sheet.dart';
+import 'package:financialinvest/ui/send/send_sheet.dart';
+import 'package:financialinvest/ui/util/ui_util.dart';
+import 'package:financialinvest/ui/widgets/dialog.dart';
+import 'package:financialinvest/ui/widgets/sheet_util.dart';
+import 'package:financialinvest/util/hapticutil.dart';
+import 'package:financialinvest/util/manta.dart';
+import 'package:financialinvest/util/user_data_util.dart';
 
 class AppPopupButton extends StatefulWidget {
   @override

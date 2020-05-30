@@ -1,8 +1,8 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
-import 'package:Invest/appstate_container.dart';
-import 'package:Invest/styles.dart';
-import 'package:Invest/ui/util/exceptions.dart';
+import 'package:financialinvest/appstate_container.dart';
+import 'package:financialinvest/styles.dart';
+import 'package:financialinvest/ui/util/exceptions.dart';
 
 enum AppButtonType {
   PRIMARY,

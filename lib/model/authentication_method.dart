@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:Invest/localization.dart';
-import 'package:Invest/model/setting_item.dart';
+import 'package:financialinvest/localization.dart';
+import 'package:financialinvest/model/setting_item.dart';
 
 enum AuthMethod { PIN, BIOMETRICS }
 
