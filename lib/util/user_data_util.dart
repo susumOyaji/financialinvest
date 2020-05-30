@@ -5,11 +5,11 @@ import 'package:flutter/services.dart';
 import 'package:logger/logger.dart';
 import 'package:flutter_nano_ffi/flutter_nano_ffi.dart';
 import 'package:manta_dart/manta_wallet.dart';
-import 'package:Invest/appstate_container.dart';
-import 'package:Invest/localization.dart';
-import 'package:Invest/model/address.dart';
-import 'package:Invest/service_locator.dart';
-import 'package:Invest/ui/util/ui_util.dart';
+import 'package:financialinvest/appstate_container.dart';
+import 'package:financialinvest/localization.dart';
+import 'package:financialinvest/model/address.dart';
+import 'package:financialinvest/service_locator.dart';
+import 'package:financialinvest/ui/util/ui_util.dart';
 
 import 'package:quiver/strings.dart';
 import 'package:validators/validators.dart';

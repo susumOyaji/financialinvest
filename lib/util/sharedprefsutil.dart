@@ -2,17 +2,17 @@ import 'dart:ui';
 import 'dart:io';
 import 'dart:async';
 import 'package:intl/intl.dart';
-import 'package:Invest/util/random_util.dart';
+import 'package:financialinvest/util/random_util.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:Invest/service_locator.dart';
-import 'package:Invest/util/encrypt.dart';
-import 'package:Invest/model/available_themes.dart';
-import 'package:Invest/model/authentication_method.dart';
-import 'package:Invest/model/available_currency.dart';
-import 'package:Invest/model/available_language.dart';
-import 'package:Invest/model/device_lock_timeout.dart';
-import 'package:Invest/model/vault.dart';
-import 'package:Invest/model/wallet.dart';
+import 'package:financialinvest/service_locator.dart';
+import 'package:financialinvest/util/encrypt.dart';
+import 'package:financialinvest/model/available_themes.dart';
+import 'package:financialinvest/model/authentication_method.dart';
+import 'package:financialinvest/model/available_currency.dart';
+import 'package:financialinvest/model/available_language.dart';
+import 'package:financialinvest/model/device_lock_timeout.dart';
+import 'package:financialinvest/model/vault.dart';
+import 'package:financialinvest/model/wallet.dart';
 
 /// Price conversion preference values
 enum PriceConversion { BTC, NONE, HIDDEN }

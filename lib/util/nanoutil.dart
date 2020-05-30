@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_nano_ffi/flutter_nano_ffi.dart';
 
-import 'package:Invest/model/db/appdb.dart';
-import 'package:Invest/model/db/account.dart';
-import 'package:Invest/appstate_container.dart';
-import 'package:Invest/localization.dart';
-import 'package:Invest/service_locator.dart';
+import 'package:financialinvest/model/db/appdb.dart';
+import 'package:financialinvest/model/db/account.dart';
+import 'package:financialinvest/appstate_container.dart';
+import 'package:financialinvest/localization.dart';
+import 'package:financialinvest/service_locator.dart';
 
 class NanoUtil {
   static String seedToPrivate(String seed, int index) {

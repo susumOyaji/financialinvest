@@ -1,12 +1,12 @@
 import 'package:get_it/get_it.dart';
 import 'package:logger/logger.dart';
 
-import 'package:Invest/model/db/appdb.dart';
-import 'package:Invest/model/vault.dart';
-import 'package:Invest/network/account_service.dart';
-import 'package:Invest/util/hapticutil.dart';
-import 'package:Invest/util/biometrics.dart';
-import 'package:Invest/util/sharedprefsutil.dart';
+import 'package:financialinvest/model/db/appdb.dart';
+import 'package:financialinvest/model/vault.dart';
+import 'package:financialinvest/network/account_service.dart';
+import 'package:financialinvest/util/hapticutil.dart';
+import 'package:financialinvest/util/biometrics.dart';
+import 'package:financialinvest/util/sharedprefsutil.dart';
 
 GetIt sl = GetIt.instance;
 

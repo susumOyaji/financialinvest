@@ -7,8 +7,8 @@
 
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:Invest/main.dart';
-import 'package:Invest/ui/intro/intro_welcome.dart';
+import 'package:financialinvest/main.dart';
+import 'package:financialinvest/ui/intro/intro_welcome.dart';
 
 // TODO - we can probably do with some proper widget testing
 

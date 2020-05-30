@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:Invest/appstate_container.dart';
+import 'package:financialinvest/appstate_container.dart';
 
 class AppStyles {
   // Text style for paragraph text.

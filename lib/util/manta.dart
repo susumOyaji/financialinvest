@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:manta_dart/manta_wallet.dart';
 import 'package:manta_dart/messages.dart';
-import 'package:Invest/appstate_container.dart';
-import 'package:Invest/localization.dart';
-import 'package:Invest/model/address.dart';
-import 'package:Invest/ui/send/send_confirm_sheet.dart';
-import 'package:Invest/ui/util/ui_util.dart';
-import 'package:Invest/ui/widgets/sheet_util.dart';
-import 'package:Invest/util/numberutil.dart';
+import 'package:financialinvest/appstate_container.dart';
+import 'package:financialinvest/localization.dart';
+import 'package:financialinvest/model/address.dart';
+import 'package:financialinvest/ui/send/send_confirm_sheet.dart';
+import 'package:financialinvest/ui/util/ui_util.dart';
+import 'package:financialinvest/ui/widgets/sheet_util.dart';
+import 'package:financialinvest/util/numberutil.dart';
 import 'package:pointycastle/asymmetric/api.dart' show RSAPublicKey;
 
 class MantaUtil {

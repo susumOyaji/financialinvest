@@ -1,6 +1,6 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:Invest/appstate_container.dart';
+import 'package:financialinvest/appstate_container.dart';
 
 /// Custom locale-specific uppercase/lowercase methods
 class CaseChange {
